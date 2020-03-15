@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./NavBar.css";
 
-let data = require("../../data/navigation.json");
+let data = require("../data/navigation.json");
 
 class NavBar extends Component {
   constructor(props) {
