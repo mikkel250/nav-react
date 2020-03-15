@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 300 90% "Helvetica Neue", Helvetica, Arial;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+ul li {
+  display: inline;
+  text-align: center;
+}
+ul li:active ~ {
+  color: blue;
+  border-bottom-color: blue;
+}
+
+a {
+  display: inline-block;
+  width: 14.2%;
+  padding: 0.75rem 0;
+  margin: 0;
+  text-decoration: none;
+  color: #333;
+}
+
+.num1:hover ~ hr {
+  margin-left: 14.2%;
+}
+
+.num2:hover ~ hr {
+  margin-left: 28.48%;
+}
+.num2:hover ~ hr {
+  margin-left: 28.48%;
+}
+.num3:hover ~ hr {
+  margin-left: 42.68%;
+}
+
+.num4:hover ~ hr {
+  margin-left: 56.88%;
+}
+
+.num5:hover ~ hr {
+  margin-left: 71.08%;
+}
+
+.num6:hover ~ hr {
+  margin-left: 85.3%;
+}
+
+.num7:hover ~ hr {
+  margin-left: 100%;
+}
+
+a:active ~ hr {
+  background: blue;
+}
+
+hr {
+  height: 0.2rem;
+  width: 14.2%;
+  margin: 0;
+  background: blue;
+  /* border-bottom-color: #333; */
+  transition: 600ms ease-in;
+}
